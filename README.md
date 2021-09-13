@@ -1,3 +1,2 @@
 # creators
-Host's community profile and description 
-~~~ npm install ~~~
+community profile
