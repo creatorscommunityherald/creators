@@ -93,6 +93,7 @@ body.dark-theme{
     color: var(--title-color);
     margin-right: var(--mb-1);
     cursor: pointer;
+
 }
 
 .change-theme:hover{
@@ -158,7 +159,7 @@ img{
 
 /*==================== LAYOUT ====================*/
 .container{
-    max-width: 768px;
+    max-width: 80%;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
 }
@@ -178,13 +179,18 @@ img{
 }
 /*==================== NAV ====================*/
 .nav{
-    max-width: 968px;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.nav__logo{
+    width: 120px;
+}
+.nav__logo img{
+    width: 100%;
+    height: 100%;
+}
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
@@ -350,6 +356,24 @@ img{
 .home__scroll-mouse{
     font-size: 1.25rem;
 }
+#home{
+    padding-top: 100vh;
+    position: relative;
+}
+.video-container{
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+  
 
 /*==================== BUTTONS ====================*/
 .button{
@@ -402,9 +426,6 @@ img{
 }
 
 /*==================== ABOUT ====================*/
-
-
-
 
 
 
@@ -784,8 +805,15 @@ img{
     opacity: 1;
     visibility: visible;   
 }
+.video{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
 
 /*==================== BLOGS ====================*/
+
 .blogs__container{
     overflow: initial;
 }
