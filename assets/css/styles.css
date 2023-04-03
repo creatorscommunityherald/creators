@@ -372,7 +372,22 @@ img{
     left: 0;
     overflow: hidden;
 }
-
+.video-up{
+    padding: 0;
+}
+.video-down{
+    padding: 0;
+}
+.video-container video:hover{
+    cursor: pointer;
+    scale: 1.1;
+    
+}
+.video-hover:hover{
+    cursor: pointer;
+    scale: 1.1;
+    animation:ease-in 3s;
+}
   
 
 /*==================== BUTTONS ====================*/
