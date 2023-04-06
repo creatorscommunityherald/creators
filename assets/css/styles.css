@@ -961,6 +961,9 @@ img{
 .contact__container{
     row-gap: 3rem;
 }
+.contact{
+    padding-top: 2rem;
+}
 
 .contact__information{
     display: flex;
@@ -1079,7 +1082,7 @@ img{
     row-gap: 1rem;
 }
 
-.contact {
+.contact-footer {
     display: flex;
     align-items: center;
     padding: 10px;
