@@ -158,6 +158,10 @@ img{
 }
 
 /*==================== LAYOUT ====================*/
+body {
+    overflow-x: hidden;
+  }
+  
 .container{
     max-width: 80%;
     margin-left: var(--mb-1-5);
@@ -869,9 +873,10 @@ img{
 
 /*==================== BLOGS ====================*/
 
-.blogs__container{
+.blogs__container,.b__c{
     overflow: initial;
 }
+
 
 .blogs__content{
     padding: 0 1.5rem;
@@ -1016,6 +1021,7 @@ img{
 .footer_half{
     display: flex;
     justify-content: center;
+    height: 324px;
 }
 .footer__container{
     display: flex;
@@ -1031,8 +1037,9 @@ img{
     margin: 0 100px;
 }
 .footer__bg{
+    background: url(../img/Footer1.png) no-repeat center bottom/cover;
     background-color: var(--first-color-second);
-    padding: 2rem 0 3rem;
+    padding: 2rem 0 3rem 0;
 }
 
 .foooter__title{
@@ -1066,7 +1073,7 @@ img{
 .footer__copy{
     font-size: var(--small-font-size);
     text-align: center;
-    color: #FFF;
+    color: #050505;
     margin-top: var(--mb-3);
 }
 
@@ -1103,6 +1110,7 @@ img{
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    color: #ffffff;
   }
   
   .number {
@@ -1123,7 +1131,10 @@ img{
     row-gap: 2rem;
 }
 
-  
+.footer_top{
+    height: 160px;
+    text-align: center;
+}
   .footer_logos {
     margin: 0 20px;
   }
@@ -1247,7 +1258,7 @@ img{
     .blogs__container,
     .skills__container,
     .worktogether__container,
-    .footer__container{
+    .footer__container,.b__c{
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1437,7 +1448,7 @@ img{
         column-gap: 5rem;
     }
 
-    .blogs__container{
+    .blogs__container,.b__c{
         column-gap: 5rem;
     }
 
