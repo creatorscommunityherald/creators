@@ -1058,7 +1058,8 @@ body {
 .footer_half{
     display: flex;
     justify-content: center;
-    height: 324px;
+    margin-top: 60px;
+
 }
 .footer__container{
     display: flex;
@@ -1169,7 +1170,6 @@ body {
 }
 
 .footer_top{
-    height: 160px;
     text-align: center;
 }
   .footer_logos {
