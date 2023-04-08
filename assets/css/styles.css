@@ -1057,9 +1057,8 @@ body {
 }
 .footer_half{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 60px;
-
 }
 .footer__container{
     display: flex;
@@ -1068,11 +1067,9 @@ body {
 }
 .footer_left{
     width: 400px;
-    margin: 0 100px;
 }
 .footer_right{
-    width: 200px;
-    margin: 0 100px;
+   margin:0 160px;
 }
 .footer__bg{
     background: url(../img/Footer1.png) no-repeat center bottom/cover;
@@ -1162,7 +1159,6 @@ body {
     color: #333;
   }
   .footer_middle {
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -1184,6 +1180,33 @@ body {
   .footer__socials{
    display: flex;
     flex-direction: column;
+}
+  
+/*========== SCROLL UP ==========*/
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+
+.scrollup:hover{
+    background-color: var(--first-color-alt);
+}
+
+.scrollup__icon{
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+/* Show scroll */
+.show-scroll{
+    bottom: 5rem;
 }
   
 /*========== SCROLL UP ==========*/
