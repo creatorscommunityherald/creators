@@ -1330,7 +1330,7 @@ body {
     
 } 
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -1479,6 +1479,17 @@ body {
     .footer__copy{
         margin-top: 4.5rem;
     }
+    .video-container {
+        width: 450px;
+        margin: 0;
+        height: auto;
+    }
+    
+    .video-container video {
+       width: 100%;
+    }
+    
+    
 }
 
 /* For large devices */
