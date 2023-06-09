@@ -8,7 +8,7 @@ class Header extends HTMLElement {
       this.innerHTML = `
         <header class="header" id="header">
           <nav class="nav container">
-            <a href="/" class="nav__logo" id="logo"><img src="./assets/img/CreatorsLogoblack.png" alt="Creators Community's Logo"></img></a>
+            <a href="/" class="nav__logo" id="logo"><img src="./assets/img/CreatorsLogo.png" alt="Creators Community's Logo"></img></a>
   
             <div class="nav__menu" id="nav-menu">
               <ul class="nav__list grid">
