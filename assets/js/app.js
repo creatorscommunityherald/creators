@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Update the logo based on the current theme
   function updateLogo() {
     if (currentTheme === 'light') {
-      logoImg.src = './assets/img/CreatorsLogo.png';
-    } else {
       logoImg.src = './assets/img/CreatorsLogoblack.png';
+    } else {
+      logoImg.src = './assets/img/CreatorsLogo.png';
     }
   }
 
