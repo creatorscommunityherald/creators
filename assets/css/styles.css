@@ -236,11 +236,9 @@ body {
     row-gap: 2rem;
   }
   iframe {
-    width: 350px;
+    width: 330px;
   }
-  .video-hover:hover {
-    scale: 1;
-  }
+  
   .video {
     text-align: center;
   }
