@@ -179,7 +179,7 @@ const toggleTheme = () => {
 
 // Function to determine the current theme
 const getCurrentTheme = () => {
-  return document.body.classList.contains(darkTheme) ? 'dark' : 'light';
+  return document.body.classList.contains(darkTheme) ? 'light' : 'dark';
 };
 
 // Function to determine the current icon
