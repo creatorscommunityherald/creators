@@ -1,3 +1,4 @@
+/* Copyright Rajat Sapkota */
 class Footer extends HTMLElement {
     constructor() {
         super();
@@ -10,7 +11,7 @@ class Footer extends HTMLElement {
           
           <div class="footer_half">
               <div class="footer_left">
-                  <div class="footer__container container">
+                  <div class="footer__container">
 
                       <div class="contact_list">
 
@@ -62,7 +63,7 @@ class Footer extends HTMLElement {
                   </div>
               </div>
               <div class="footer_middle">
-                  <div class="footer_logos"><img src="./assets/img/CreatorsLogo.png" alt="logo"></div>
+                  <div class="footer_logos"><a href="/"><img src="./assets/img/CreatorsLogo.png" alt="logo"></a></div>
                   <div class="footer_logos"><img src="./assets/img/herald-white-logo.svg" alt="logo"></div>
                   <div class="footer_top">
               <h1 class="footer__title ">Creators Community</h1>
