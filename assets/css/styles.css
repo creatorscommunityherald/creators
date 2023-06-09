@@ -238,7 +238,9 @@ body {
   iframe {
     width: 330px;
   }
-  
+  .video-hover:hover {
+    scale: 1 !important;
+  }
   .video {
     text-align: center;
   }
