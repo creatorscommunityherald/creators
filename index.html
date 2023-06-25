@@ -14,125 +14,24 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
     <!--==================== JS ====================-->
-    <script src="./assets/js/app.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/header.js"></script>
+    <script src="/assets/js/footer.js"></script>
     <title>Creators Community</title>
     <link rel="icon" href="assets/img/Creators_Community.png" type="image/icon type">
+    
 </head>
-
+<!-- Website developed by Rajat Sapkota -->
 <body>
     <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="" class="nav__logo" id="logo"><img src="./assets/img/CreatorsLogoblack.png"
-                    alt="Creators Community's Logo"></a>
-
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <!-- <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i> Home
-                        </a>
-                    </li> -->
-
-                    <li class="nav__item">
-                        <a href="./about.html" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> About
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="./community.html" class="nav__link">
-                            <i class="uil uil-users-alt nav__icon"></i> Community
-
-                        </a>
-                    </li>
-                    <!-- <li class="nav__item">
-                        <a href="./services.html" class="nav__link">
-                            <i class="uil uil-label nav__icon"></i> Services
-                        </a>
-                    </li> -->
-
-                    <li class="nav__item">
-                        <a href="./work.html" class="nav__link">
-                            <i class="uil uil-diary-alt nav__icon"></i> Our Work
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./contact.html" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i> Contact Us
-                        </a>
-                    </li>
-                </ul>
-
-                <i class="uil uil-times nav__close" id="nav-close"></i>
-            </div>
-
-            <div class="nav__btns">
-                <!-- Theme change button -->
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <header-element></header-element>
 
     <!--==================== MAIN ====================-->
     <main class="main">
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
             <div class="home__container container grid">
-                <!-- <div class="home__content grid"> -->
-                <!-- <div class="home__social">
 
-                            <a href="https://www.facebook.com/groups/devcorps.creators" target="_blank" class="home__social-icon">
-                                <i class="uil uil-facebook-f"></i>                       
-                            </a>
-
-                            <a href="https://www.instagram.com/devcorps.creators/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-instagram"></i>     
-                            </a>
-
-                            <a href="https://www.linkedin.com/company/herald-devcorps-creators-community/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-
-                            <a href="https://www.youtube.com/channel/UCQEq6XLTYwxPHvAGd2R9w8g" target="_blank" class="home__social-icon">
-                                <i class="uil uil-youtube"></i>
-                            </a>
-
-
-                            
-                        </div> -->
-
-                <!-- <div class="'home__img">
-                            <img src="assets/img/Creators_Community.png" alt="" class="home__blob-img">
-
-                        </div> -->
-
-
-                <!-- <div class="home__data">
-                            <h1 class="home__title">Creators Community</h1>
-                            <h3 class="home__subtitle">Dumb Ideas Actually Matter</h3>
-                            <p class="home__description">
-                                We collaborate with each other to learn, implement 
-                                and explore our creativity.</p>
-                         
-                            <a href="#contact" class="button button--flex">
-                              Contact Us <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div> -->
-                <!-- </div> -->
-
-                <!-- <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div> -->
-                <!-- Add a section here to show video from youtube url make this to autoplay-->
                 <div class="video-container">
                     <video autoplay="" muted="" playsinline="" controls="" controlslist="nodownload"
                         disablepictureinpicture="" loop="">
@@ -140,57 +39,254 @@
                         <source type="video/mp4" src="./assets/video/Creators_Intro.mp4">
                     </video>
                 </div>
-
             </div>
-
-
         </section>
 
-        <!-- ==================== ABOUT ====================
-        <section class="about section" id="about">
-            <h2 class="section__title">About Us</h2>
-            <span class="section__subtitle">Our Introduction</span>
-
-            <div class="about__container container grid">
-
-
-                <div class="about__data">
-                    <p class="about__description">Creators Community is a group of passionate and enthusiastic students
-                        from Herald College Kathmandu,
-                        where we collaborate with each other to learn, implement, and explore our creativity. Focusing
-                        on different challenges of the
-                        Industry for revolution along with increasing complexity day to day, we as a team embark on the
-                        possibilities of dumb yet
-                        interesting ideas.
-                    </p>
-
-                    <div class="about__info">
-                        <div>
-                            <span class="about__info-title">02</span>
-                            <span class="about__info-name">Years <br> Excellence</span>
+        <!--==================== SOCIAL POSTS ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">Social Posts</h2>
+            <span class="section__subtitle">Our Recent Posts</span>
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <blockquote class="instagram-media" data-instgrm-captioned
+                        data-instgrm-permalink="https://www.instagram.com/reel/CqiLEf7s9rg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                        data-instgrm-version="14"
+                        style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                        <div style="padding:16px;"> <a
+                                href="https://www.instagram.com/reel/CqiLEf7s9rg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                                target="_blank">
+                                <div style=" display: flex; flex-direction: row; align-items: center;">
+                                    <div
+                                        style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                    </div>
+                                    <div
+                                        style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                        <div
+                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                        </div>
+                                        <div
+                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="padding: 19% 0;"></div>
+                                <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg
+                                        width="50px" height="50px" viewBox="0 0 60 60" version="1.1"
+                                        xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                <g>
+                                                    <path
+                                                        d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                                <div style="padding-top: 8px;">
+                                    <div
+                                        style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                        View this post on Instagram</div>
+                                </div>
+                                <div style="padding: 12.5% 0;"></div>
+                                <div
+                                    style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                    <div>
+                                        <div
+                                            style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                        </div>
+                                        <div
+                                            style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                        </div>
+                                        <div
+                                            style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: 8px;">
+                                        <div
+                                            style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                        </div>
+                                        <div
+                                            style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: auto;">
+                                        <div
+                                            style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                        </div>
+                                        <div
+                                            style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                        </div>
+                                        <div
+                                            style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                    </div>
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                    </div>
+                                </div>
+                            </a>
+                            <p
+                                style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                <a href="https://www.instagram.com/reel/CqiLEf7s9rg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                    style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                    target="_blank">A post shared by Herald DevCorps: Creators Community
+                                    (@devcorps.creators)</a>
+                            </p>
                         </div>
-
-                        <div>
-                            <span class="about__info-title">10+</span>
-                            <span class="about__info-name">Completed <br> Events</span>
+                    </blockquote>
+                    <script async src="//www.instagram.com/embed.js"></script>
+                    <blockquote class="instagram-media" data-instgrm-captioned
+                        data-instgrm-permalink="https://www.instagram.com/p/CqaAFnQN_dl/?utm_source=ig_embed&amp;utm_campaign=loading"
+                        data-instgrm-version="14"
+                        style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                        <div style="padding:16px;"> <a
+                                href="https://www.instagram.com/p/CqaAFnQN_dl/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                                target="_blank">
+                                <div style=" display: flex; flex-direction: row; align-items: center;">
+                                    <div
+                                        style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                    </div>
+                                    <div
+                                        style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                        <div
+                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                        </div>
+                                        <div
+                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="padding: 19% 0;"></div>
+                                <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg
+                                        width="50px" height="50px" viewBox="0 0 60 60" version="1.1"
+                                        xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                <g>
+                                                    <path
+                                                        d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                                <div style="padding-top: 8px;">
+                                    <div
+                                        style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                        View this post on Instagram</div>
+                                </div>
+                                <div style="padding: 12.5% 0;"></div>
+                                <div
+                                    style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                    <div>
+                                        <div
+                                            style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                        </div>
+                                        <div
+                                            style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                        </div>
+                                        <div
+                                            style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: 8px;">
+                                        <div
+                                            style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                        </div>
+                                        <div
+                                            style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: auto;">
+                                        <div
+                                            style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                        </div>
+                                        <div
+                                            style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                        </div>
+                                        <div
+                                            style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                    </div>
+                                    <div
+                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                    </div>
+                                </div>
+                            </a>
+                            <p
+                                style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                <a href="https://www.instagram.com/p/CqaAFnQN_dl/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                    style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                    target="_blank">A post shared by Herald DevCorps: Creators Community
+                                    (@devcorps.creators)</a>
+                            </p>
                         </div>
-
-                        <div>
-                            <span class="about__info-title">15</span>
-                            <span class="about__info-name">Future <br> Projects</span>
+                    </blockquote>
+                    <script async src="//www.instagram.com/embed.js"></script>
+                </div>
+        </section>
+        <!--==================== VIDEOS ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">Videos</h2>
+            <span class="section__subtitle">Our Visual Contents</span>
+            <div class="video">
+                <div class="video-up">
+                    <div class="qualification__container video-content">
+                        <div class="qualification__tabs video-hover">
+                            <iframe width="560" height="250" src="https://www.youtube.com/embed/KL_20ZP5v2s"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
+                    <div class="qualification__container video-content">
+                        <div class="qualification__tabs video-hover">
+                            <iframe width="560" height="250" src="https://www.youtube.com/embed/Cg5houMR3FU"
+                                title="The Call Reboot Podcast | Episode 02 | Life in BIT | Creators Community"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="about__buttons">
-
-                        <a href="https://forms.gle/XkSY28gdBUfC7p1L9" class="button button--flex">
-                            Join Us<i class="uil uil-message button__icon"></i>
-                        </a>
+                <div class="video-down">
+                    <div class="qualification__container video-content">
+                        <div class="qualification__tabs video-hover">
+                            <iframe width="560" height="250" src="https://www.youtube.com/embed/W0LIoMgY7wQ"
+                                title="Growth Project Episode 02 | E-commerce and Recommendation Engine | Biraj Dulal | Pratima Chapagain"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="qualification__container video-content">
+                        <div class="qualification__tabs video-hover">
+                            <iframe width="560" height="250" src="https://www.youtube.com/embed/fapIZhMaH0U"
+                                title="The Call Reboot | Luna Bhattarai | Episode 03 | The Tales of a Multifaceted Personality"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section> -->
-
+        </section>
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section">
             <h2 class="section__title" id="objectives">Objectives </h2>
@@ -308,944 +404,9 @@
                             </div>
 
                         </div>
-
-
-
-
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!--==================== COMMUNITY ====================-->
-        <!-- <section class="community section" id="community">
-            <h2 class="section__title">Community</h2>
-            <span class="section__subtitle">Involvement of Members</span>
-            <div class="qualification__tabs">
-                <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                    Creators 2022
-                </div>
-            </div> -->
-
-        <!-- <div class="community__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <div>
-                        <div class="community__container container"> -->
-        <!--==================== COMMUNITY 1 ====================-->
-        <!-- <div class="community__content swiper-slide">
-                                <div class="community__data">
-                                    <div class="community__header">
-                                        <img src="assets/img/Dhiraj.jpg" alt="" class="community__img">
-                                        <div>
-                                            <h3 class="community__name">Dhiraj Kumar Sah Kanu</h3>
-                                            <span class="community__position">Plan/ Design/ Content/ Web/
-                                                Presenter</span>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <a href="https://www.facebook.com/dheerazsahh" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-facebook-f"></i>
-                                        </a>
-
-                                        <a href="https://www.instagram.com/dheerazsah/" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-instagram"></i>
-                                        </a>
-
-                                        <a href="https://www.linkedin.com/in/dheerazsah/" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-linkedin-alt"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <p class="community__description">Being a leader of Creators Community,
-                                    I have developed proven real life industry experience. Dumb but eager to learn.
-                                </p>
-
-                            </div> -->
-
-        <!--==================== COMMUNITY 2 ====================-->
-        <!-- <div class="community__content swiper-slide">
-                                <div class="community__data">
-                                    <div class="community__header">
-                                        <img src="assets/img/Prashiksha.jpg" alt="" class="community__img">
-                                        <div>
-                                            <h3 class="community__name">Prashiksha Dhungana</h3>
-                                            <span class="community__position">Proposal/ Budget</span>
-                                        </div>
-                                    </div>
-
-
-                                    <div>
-                                        <a href="#community" target="_blank" class="home__social-icon">
-                                            <i class="uil uil-facebook-f"></i>
-                                        </a>
-
-                                        <a href="https://www.instagram.com/pineapple.lover7/" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-instagram"></i>
-                                        </a>
-
-                                        <a href="https://www.linkedin.com/in/prashiksha-dhungana-706b69211/"
-                                            target="_blank" class="home__social-icon">
-                                            <i class="uil uil-linkedin-alt"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <p class="community__description">My biggest motivation is coffee. I am currently
-                                    studying BIT.
-                                    I love writing daily. I'll dance to every beat if I'm alone and singing on top of my
-                                    voice
-                                    early in the morning is what gives me energy.
-                                </p>
-
-                            </div> -->
-
-        <!--==================== COMMUNITY 3 ====================-->
-        <!-- <div class="community__content swiper-slide">
-                                <div class="community__data">
-                                    <div class="community__header">
-                                        <img src="assets/img/Abhinav.png" alt="" class="community__img">
-                                        <div>
-                                            <h3 class="community__name">Abhinav Niraula</h3>
-                                            <span class="community__position">Plan/ Podcast/ Video Editing</span>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <a href="https://www.facebook.com/abhinav.niraula" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-facebook-f"></i>
-                                        </a>
-
-                                        <a href="https://www.instagram.com/abhinavsolta/" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-instagram"></i>
-                                        </a>
-
-                                        <a href="https://www.linkedin.com/in/abhinav-niraula-128076238/" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-linkedin-alt"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <p class="community__description">I am a huge sports lover, cricket and football to be
-                                    specific.
-                                    Alongside, I love to live my life with happiness and surround myself with jolly
-                                    individuals.
-                                    I also like video editing quite a bit and do the stuff related to it when required
-                                </p>
-
-                            </div> -->
-
-        <!--==================== COMMUNITY 4 ====================-->
-        <!-- <div class="community__content swiper-slide">
-                                <div class="community__data">
-                                    <div class="community__header">
-                                        <img src="assets/img/Shubhanga.png" alt="" class="community__img">
-                                        <div>
-                                            <h3 class="community__name">Shubhanga Bista</h3>
-                                            <span class="community__position">Presenter/ Time Management</span>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <a href="https://www.facebook.com/profile.php?id=100013428764890"
-                                            target="_blank" class="home__social-icon">
-                                            <i class="uil uil-facebook-f"></i>
-                                        </a>
-
-                                        <a href="https://www.instagram.com/bista_shubhanga/" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-instagram"></i>
-                                        </a>
-
-                                        <a href="#community" target="_blank" class="home__social-icon">
-                                            <i class="uil uil-linkedin-alt"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <p class="community__description">The reason that I join the community was to
-                                    communicate with
-                                    as many people as possible and to learn from everyone and everything that is part of
-                                    the community.
-                                    There are many skills that I have developed. As it is not the end I would like to
-                                    develop myself more in the future.
-                                    My motto: Rule like the King, Act like the Queen, Speak like the Princess, and Fight
-                                    like the Prince.
-
-                            </div> -->
-
-        <!--==================== COMMUNITY 5 ====================-->
-        <!-- <div class="community__content swiper-slide">
-                                <div class="community__data">
-                                    <div class="community__header">
-                                        <img src="assets/img/Rajat.png" alt="" class="community__img">
-                                        <div>
-                                            <h3 class="community__name">Rajat Sapkota</h3>
-                                            <span class="community__position">Content/ Task Solver</span>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <a href="https://www.facebook.com/ellen.sapkota" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-facebook-f"></i>
-                                        </a>
-
-                                        <a href="https://www.instagram.com/rajat_sapkota/" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-instagram"></i>
-                                        </a>
-
-                                        <a href="https://www.linkedin.com/in/rajat-sapkota-b03089228/" target="_blank"
-                                            class="home__social-icon">
-                                            <i class="uil uil-linkedin-alt"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <p class="community__description">
-                                    As an active leader of the Creators Community, I have consistently demonstrated a
-                                    creative approach to problem-solving, coupled with a willingness to learn new
-                                    skills. With extensive experience working both individually and as part of a team, I
-                                    bring a strong sense of energy and professionalism to every endeavor.
-                                </p>
-
-                            </div> -->
-
-        <!--==================== COMMUNITY 6 ====================-->
-        <!-- <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                            Academic Mentor 2022
-                        </div> -->
-        <!-- <div class="community__content swiper-slide">
-                                <div class="community__data">
-                                    <div class="community__header">
-                                        <img src="assets/img/Sujata.jpg" alt="" class="community__img">
-                                        <div>
-                                            <h3 class="community__name">Sujata Thapa</h3>
-                                            <span class="community__position">Academic Mentor</span>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <i class="uil uil-star community__icon-star"></i>
-                                        <i class="uil uil-star community__icon-star"></i>
-                                        <i class="uil uil-star community__icon-star"></i>
-                                        <i class="uil uil-star community__icon-star"></i>
-                                        <i class="uil uil-star community__icon-star"></i>
-                                    </div>
-                                </div>
-
-                                <p class="community__description">
-                                    I am a proud Mentor of Creators Community. I motivate them to plan better every day.
-                                    I am here to support, guide, and facilitate the team to achieve their goal. It's
-                                    always been
-                                    a pleasure to work with young enthusiasts because I learn so much from them. I am
-                                    growing with them and learning every day.
-                                </p>
-
-                            </div>
-                            <div class="about__buttons">
-
-                                <a href="./community.html" class="button button--flex">
-                                    Learn More<i class="uil uil-message button__icon"></i>
-                                </a>
-                            </div>
-                        </div> -->
-
-
-        <!-- </div> -->
-
-        <!-- Add Pagination -->
-        <!-- <div class="swiper-pagination swiper-pagination-community"></div> -->
-        <!-- </div> -->
-        <!-- </section> -->
-
-        <!--==================== SERVICES ====================-->
-        <!-- <section class="services section" id="services">
-            <h2 class="section__title">Services</h2>
-            <span class="section__subtitle">What We Offer</span>
-            <div class="services__container container grid"> -->
-        <!--==================== SERVICES 1 ====================-->
-        <!-- <div class="services__content">
-                    <div>
-                        <i class="uil uil-brush-alt services__icon"></i>
-                        <h3 class="services__title">UI/UX <br> Designing </h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">UI/UX <br> Designing</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>We explore about UI/ UX designing.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Learn different tools like Figma.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Helping in HCI module.</p>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </div> -->
-
-        <!--==================== SERVICES 2 ====================-->
-        <!-- <div class="services__content">
-                    <div>
-                        <i class="uil uil-robot services__icon"></i>
-
-                        <h3 class="services__title">Artificial <br> Intelligence</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Artificial <br> Intelligence</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Exploring terms of AI.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Working on real AI based porject.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Introduction to future of AI.</p>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </div> -->
-        <!--==================== SERVICES 3 ====================-->
-        <!-- <div class="services__content">
-                    <div>
-                        <i class="uil uil-chart-line services__icon"></i>
-
-                        <h3 class="services__title">Marketing <br> & Business</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Marketing<br> & Business</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Exploring fields of Digital Marketing.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Converting ideas into Business.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Real life market experience.</p>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </div> -->
-
-        <!--==================== SERVICES 4 ====================-->
-        <!-- <div class="services__content">
-                    <div>
-                        <i class="uil uil-cube services__icon"></i>
-                        <h3 class="services__title">Gaming <br> & 3D Modeling</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Gaming<br> & 3D Modeling</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Introduction to Gaming world.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Research on 3D Modeling.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Working on virtual experience.</p>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </div> -->
-
-
-        <!--==================== SERVICES 5 ====================-->
-        <!-- <div class="services__content">
-                    <div>
-                        <i class="uil uil-video services__icon"></i>
-                        <h3 class="services__title">Technicalities <br> Exploration</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Technicalities <br> Exploration</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Learning Videography.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Exploration to editing and production.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Online presence of content.</p>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>-->
-        <!--==================== SERVICES 6 ====================-->
-        <!-- <div class="services__content">
-                    <div>
-                        <i class="uil uil-browser services__icon"></i>
-                        <h3 class="services__title">Web <br> Development</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Web <br> Development</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Learning basic web development.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Knowing current languages for development.</p>
-                                </li>
-
-                                <li class="services__modal-services">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Developing your own portfolio.</p>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div> -->
-
-        <!-- </section> -->
-
-        <!--==================== OUR WORK ====================-->
-        <!-- <section class="blogs section" id="blogs">
-            <h2 class="section__title">Our Work</h2>
-            <span class="section__subtitle">Events & Plans</span>
-
-            <div class="blogs__container container swiper-container">
-                <div class="swiper-wrapper"> -->
-        <!--==================== BLOG 1 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/The Call Reboot.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">01. The Call Reboot</h3>
-                            <p class="blogs__description">
-                                The Call Reboot Podcast is a continuation of our previous podcast The Call.The Call
-                                Reboot is a new digital platform to convey educational, informative, motivational,
-                                social, etc. aspects of contemporary society.
-                            </p>
-
-                            <a href="./work.html" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!--==================== BLOG 2 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/Vision Quest.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">02. Vision Quest</h3>
-                            <p class="blogs__description">Vision quest is a workshop designed to enhance your
-                                creativity, innovation, and entrepreneurial skills.
-                                In Collabration with Herald Biz Core Community.
-                            </p>
-
-                            <a href="./work.html" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!--==================== BLOG 3 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/Growth Project.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">03. Growth Project</h3>
-                            <p class="blogs__description">
-                                With the main objective of sorting out the queries students may have to face or are
-                                facing during their final year project.
-                            </p>
-
-                            <a href="./work.html" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!--==================== BLOG 4 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/Panel Discussion2.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">04. Panel Discussion</h3>
-                            <p class="blogs__description">
-                                A specific format used in a meeting which is in-person, virtual discussion about a
-                                specific topic to the audience.
-                            </p>
-
-                            <a href="./work.html" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!--==================== BLOG 5 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/Effective Communication.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">05. Effective Communication</h3>
-                            <p class="blogs__description">
-                                A event in collaboration with Rotract Club of Pashupati-Kathmandu to polish the
-                                communication skills by facilitator Ms. Aditi Upadhaya.
-                            </p>
-
-                            <a href="./work.html" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!--==================== BLOG 6 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/The Call.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">06. The Call</h3>
-                            <p class="blogs__description">
-                                A Google Meet based podcast which aimed to show how teachers, student and IT
-                                professionals feel about their field of study and work.
-                            </p>
-
-                            <a href="./work.html" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!--==================== BLOG 7 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/The Vault.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">07. The Vault</h3>
-                            <p class="blogs__description">
-                                A change the way people use mobiles and computers where you put your mind blowing ideas
-                                in the vault, a blogging web/ application.
-                            </p>
-
-                            <a href="#" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!--==================== BLOG 8 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/College Industry 2.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">08. College Industry Bridge</h3>
-                            <p class="blogs__description">
-                                A talk show about how to relate college and industry from a professional perspective.
-                            </p>
-
-                            <a href="#" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!--==================== BLOG 9 ====================-->
-        <!-- <div class="blogs__content grid swiper-slide">
-                        <img src="assets/img/Ignite.jpg" alt="" class="blogs__img">
-
-                        <div class="blogs__data">
-                            <h3 class="blogs__title">09. Ignite</h3>
-                            <p class="blogs__description">
-                                Ignite is an initiation of Creators Community where students pitch their ideas and gain
-                                insights and investments.
-                            </p>
-
-                            <a href="./work.html" class="button button--flex button--small blogs__button">
-
-                                Read More
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div> -->
-
-        <!-- </div> -->
-
-        <!--==================== ADD ARROWS ====================-->
-        <!-- <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-blogs-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-blogs-icon"></i>
-                </div> -->
-
-        <!--==================== PAGINATION ====================-->
-        <!-- <div class="swiper-pagination"></div> -->
-        <!-- </div> -->
-        <!-- </section> -->
-
-        <!--==================== VIDEOS ====================-->
-        <section class="qualification section">
-            <h2 class="section__title">Videos</h2>
-            <span class="section__subtitle">Our Visual Contents</span>
-            <div class="video">
-                <div class="video-up">
-                    <div class="qualification__container container">
-                        <div class="qualification__tabs video-hover">
-                            <iframe width="560" height="250" src="https://www.youtube.com/embed/KL_20ZP5v2s"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="qualification__container container">
-                        <div class="qualification__tabs video-hover">
-                            <iframe width="560" height="250" src="https://www.youtube.com/embed/Cg5houMR3FU"
-                                title="The Call Reboot Podcast | Episode 02 | Life in BIT | Creators Community"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="video-down">
-                    <div class="qualification__container container">
-                        <div class="qualification__tabs video-hover">
-                            <iframe width="560" height="250" src="https://www.youtube.com/embed/W0LIoMgY7wQ"
-                                title="Growth Project Episode 02 | E-commerce and Recommendation Engine | Biraj Dulal | Pratima Chapagain"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="qualification__container container">
-                        <div class="qualification__tabs video-hover">
-                            <iframe width="560" height="250" src="https://www.youtube.com/embed/fapIZhMaH0U"
-                                title="The Call Reboot | Luna Bhattarai | Episode 03 | The Tales of a Multifaceted Personality"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--==================== SOCIAL POSTS ====================-->
-        <section class="qualification section">
-            <h2 class="section__title">Social Posts</h2>
-            <span class="section__subtitle">Our Recent Posts</span>
-
-            <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <blockquote class="instagram-media" data-instgrm-captioned
-                        data-instgrm-permalink="https://www.instagram.com/p/Ciq3dovKu9_/?utm_source=ig_embed&amp;utm_campaign=loading"
-                        data-instgrm-version="14"
-                        style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                        <div style="padding:16px;"> <a
-                                href="https://www.instagram.com/p/Ciq3dovKu9_/?utm_source=ig_embed&amp;utm_campaign=loading"
-                                style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
-                                target="_blank">
-                                <div style=" display: flex; flex-direction: row; align-items: center;">
-                                    <div
-                                        style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
-                                    </div>
-                                    <div
-                                        style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
-                                        <div
-                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
-                                        </div>
-                                        <div
-                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style="padding: 19% 0;"></div>
-                                <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg
-                                        width="50px" height="50px" viewBox="0 0 60 60" version="1.1"
-                                        xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g transform="translate(-511.000000, -20.000000)" fill="#000000">
-                                                <g>
-                                                    <path
-                                                        d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
-                                                    </path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg></div>
-                                <div style="padding-top: 8px;">
-                                    <div
-                                        style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
-                                        View this post on Instagram</div>
-                                </div>
-                                <div style="padding: 12.5% 0;"></div>
-                                <div
-                                    style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
-                                    <div>
-                                        <div
-                                            style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
-                                        </div>
-                                        <div
-                                            style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
-                                        </div>
-                                        <div
-                                            style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
-                                        </div>
-                                    </div>
-                                    <div style="margin-left: 8px;">
-                                        <div
-                                            style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
-                                        </div>
-                                        <div
-                                            style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
-                                        </div>
-                                    </div>
-                                    <div style="margin-left: auto;">
-                                        <div
-                                            style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
-                                        </div>
-                                        <div
-                                            style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
-                                        </div>
-                                        <div
-                                            style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
-                                    <div
-                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
-                                    </div>
-                                    <div
-                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
-                                    </div>
-                                </div>
-                            </a>
-                            <p
-                                style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-                                <a href="https://www.instagram.com/p/Ciq3dovKu9_/?utm_source=ig_embed&amp;utm_campaign=loading"
-                                    style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
-                                    target="_blank">A post shared by Creators Community (@devcorps.creators)</a>
-                            </p>
-                        </div>
-                    </blockquote>
-                    <script async src="//www.instagram.com/embed.js"></script>
-
-                    <blockquote class="instagram-media" data-instgrm-captioned
-                        data-instgrm-permalink="https://www.instagram.com/p/Cio0AKKID8Y/?utm_source=ig_embed&amp;utm_campaign=loading"
-                        data-instgrm-version="14"
-                        style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                        <div style="padding:16px;"> <a
-                                href="https://www.instagram.com/p/Cio0AKKID8Y/?utm_source=ig_embed&amp;utm_campaign=loading"
-                                style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
-                                target="_blank">
-                                <div style=" display: flex; flex-direction: row; align-items: center;">
-                                    <div
-                                        style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
-                                    </div>
-                                    <div
-                                        style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
-                                        <div
-                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
-                                        </div>
-                                        <div
-                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style="padding: 19% 0;"></div>
-                                <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg
-                                        width="50px" height="50px" viewBox="0 0 60 60" version="1.1"
-                                        xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g transform="translate(-511.000000, -20.000000)" fill="#000000">
-                                                <g>
-                                                    <path
-                                                        d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
-                                                    </path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg></div>
-                                <div style="padding-top: 8px;">
-                                    <div
-                                        style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
-                                        View this post on Instagram</div>
-                                </div>
-                                <div style="padding: 12.5% 0;"></div>
-                                <div
-                                    style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
-                                    <div>
-                                        <div
-                                            style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
-                                        </div>
-                                        <div
-                                            style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
-                                        </div>
-                                        <div
-                                            style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
-                                        </div>
-                                    </div>
-                                    <div style="margin-left: 8px;">
-                                        <div
-                                            style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
-                                        </div>
-                                        <div
-                                            style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
-                                        </div>
-                                    </div>
-                                    <div style="margin-left: auto;">
-                                        <div
-                                            style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
-                                        </div>
-                                        <div
-                                            style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
-                                        </div>
-                                        <div
-                                            style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
-                                    <div
-                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
-                                    </div>
-                                    <div
-                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
-                                    </div>
-                                </div>
-                            </a>
-                            <p
-                                style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-                                <a href="https://www.instagram.com/p/Cio0AKKID8Y/?utm_source=ig_embed&amp;utm_campaign=loading"
-                                    style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
-                                    target="_blank">A post shared by Creators Community (@devcorps.creators)</a>
-                            </p>
-                        </div>
-                    </blockquote>
-                    <script async src="//www.instagram.com/embed.js"></script>
-
-                </div>
-
         </section>
 
         <!--==================== FUTURE WORK ====================-->
@@ -1474,7 +635,7 @@
                             our future project or on your project.
                         </p>
 
-                        <a href="https://forms.gle/XkSY28gdBUfC7p1L9" class="button button--flex button--white">
+                        <a href="https://forms.gle/XkSY28gdBUfC7p1L9" class="button button--flex button--white" target="_blank" >
                             Join Us
                             <i class="uil uil-message worktogether__icon button__icon"></i>
                         </a>
@@ -1486,157 +647,10 @@
         </section>
 
 
-
-        <!--==================== CONTACT US ====================-->
-        <!-- <section class="contact section" id="contact">
-            <h2 class="section__title">Contact Us</h2>
-            <span class="section__subtitle">Get In Touch</span>
-
-            <div class="contact__container container grid">
-                <div>
-                    <div class="contact__information">
-                        <i class="uil uil-phone-alt contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Call Us</h3>
-                            <span class="contact__subtitle">+977 9840600251</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-envelope-alt contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">creatorscommunity@heraldcollege.edu.np</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-map-marker contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">Naxal, Kathmandu, Nepal</span>
-                        </div>
-                    </div>
-                </div> -->
-
-        <!-- <form action="" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
-                            </div>
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                        </div>
-
-                        <div>
-                            <a href="#" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </form> -->
-        <!-- </div>
-        </section>-->
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer">
-        <div class="footer__bg">
-            <div class="footer_top">
-                <h1 class="footer__title ">Creators Community</h1>
-                <span class="footer__subtitle">Dumb Ideas Actually Matter</span>
-            </div>
-            <div class="footer_half">
-                <div class="footer_left">
-                    <div class="footer__container container">
-                        
-                        <div class="contact_list">
-                           
-                            
-                            <div class="contact-footer">
-                                <span class="icon">
-                                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.65.25-1C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2c0-4.97-4.03-9-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z"></path>
-                                  </svg>
-                                </span>
-                                <div class="details">
-                                    <span class="name">Dhiraj Kumar Shah Kanu</span>
-                                    <a href="tel:+9779840600251"><span class="number">9840600251</span></a>
-                                </div>
-                              </div>
-                            <div class="contact-footer">
-                                <span class="icon">
-                                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.65.25-1C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2c0-4.97-4.03-9-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z"></path>
-                                  </svg>
-                                </span>
-                                <div class="details">
-                                    <span class="name">Rajat Sapkota</span>
-                                    <a href="tel:+9779861813697"><span class="number">9861813697</span></a>
-                                </div>
-                              </div>
-                            <div class="contact-footer">
-                                <span class="icon">
-                                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.65.25-1C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2c0-4.97-4.03-9-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z"></path>
-                                  </svg>
-                                </span>
-                                <div class="details">
-                                  <span class="name">Abhinav Niraula</span>
-                                  <a href="tel:+977986160760"><span class="number">9861607604</span></a>
-                                </div>
-                              </div>
-                              
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_middle">
-                    <div class="footer_logos"><img src="./assets/img/CreatorsLogo.png" alt="logo"></div>
-                    <div class="footer_logos"><img src="./assets/img/herald-white-logo.svg" alt="logo"></div>
-                </div>
-                <div class="footer_right">
-                    <div class="footer__socials">
-                        <a href="https://www.facebook.com/groups/devcorps.creators" target="_blank"
-                            class="footer__social">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
-
-                        <a href="https://www.instagram.com/devcorps.creators/" target="_blank" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-
-                        <a href="https://www.linkedin.com/company/herald-devcorps-creators-community/" target="_blank"
-                            class="footer__social">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-
-                        <a href="https://www.youtube.com/channel/UCQEq6XLTYwxPHvAGd2R9w8g" target="_blank"
-                            class="footer__social">
-                            <i class="uil uil-youtube"></i>
-                        </a>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <p class="footer__copy">&#169; CreatorsCommunity2023.</p>
-        </div>
-    </footer>
+    <footer-element></footer-element>
 
     <!--==================== SCROLL TOP ====================-->
     <a href="#" class="scrollup" id="scroll-up">
