@@ -29,7 +29,13 @@ class Header extends HTMLElement {
                     <i class="uil uil-diary-alt nav__icon"></i> Our Work
                   </a>
                 </li>
-  
+                
+                <li class="nav__item">
+                  <a href="./virtual-herald.html" class="nav__link">
+                    <i class="uil uil-diary-alt nav__icon"></i> Virtual Herald
+                  </a>
+                </li>
+
                 <li class="nav__item">
                   <a href="./contact.html" class="nav__link">
                     <i class="uil uil-message nav__icon"></i> Contact Us
